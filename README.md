@@ -5,7 +5,7 @@ Some problems in dynamic programming with Python
 
 Solve the problem below using dynamic programming:
 
-<img src="1.png" width="700" height="100">
+<img src="1.png" width="500" height="90">
 
 <h3>Problem 2</h3>
 
@@ -15,7 +15,7 @@ In addition, it has no limit on the number of houses traveled in each direction.
 
 With the help of dynamic programming, find the number of all virtual paths that the mobile can travel from point A to B.
 
-<img src="2.png" width="300" height="300">
+<img src="2.png" width="300" height="250">
 
 <h3>Problem 3</h3>
 
@@ -27,7 +27,7 @@ As the first criterion, we assume that we want to reach 𝑆1 to 𝑆2 from stri
 
 For example, two ways of getting from the word "index" to "inside" is as below:
 
-<img src="2.png" width="800" height="200">
+<img src="3.png" width="700" height="80">
 
 With the help of dynamic programming, find the minimum cost of getting from desired string 𝑆1 to desired string 𝑆2.
 
@@ -38,6 +38,9 @@ As the second criterion, we define a concept called subseries of a string. The s
 For example, the string "𝑎𝑐𝑎" is a sub-series of three of the main string "𝑎𝑏𝑐𝑏𝑎".
 
 Now, the common subseries of two strings 𝑆1 and 𝑆2 is equal to the set of common characters of these two strings, which are the subseries of each of these two strings. For example, consider the following two strings:
+
+
+<img src="4.png" width="500" height="50">
 
 Using dynamic programming, find the length of the largest common subseries between two arbitrary strings 𝑆1 and 𝑆2.
 
